@@ -43,7 +43,7 @@ img {
 
 .product-page-head-container,
 .product-page-bottom-container {
-    background-color: #fde7e8;
+    background-color: #FDD0B1;
     border-radius: .5rem;
 }
 
@@ -54,7 +54,7 @@ img {
 }
 
 .pp-col-1-3 {
-    box-shadow: 0 0 15px #fde7e8;
+    box-shadow: 0 0 15px #FDD0B1;
     border-radius: .5rem;
     text-align: center;
     margin: 1rem;
@@ -65,21 +65,21 @@ img {
 }
 
 .pp-img1 {
-    background-color: #fde7e8;
+    background-color: #FDD0B1;
 }
 
 .pp-img3 {
-    background-color: #fde7e8;
+    background-color: #FDD0B1;
 }
 
 .pp-img2 {
-    background-color: #fde7e8;
+    background-color: #FDD0B1;
 }
 
 .pp-note {
     box-sizing: border-box;
-    width: 100%;
-    box-shadow: 0 0 15px #fde7e8;
+    max-width: 100%;
+    box-shadow: 0 0 15px #FDD0B1;
     border-radius: .5rem;
     text-align: center;
 }
