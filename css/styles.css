@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
+    color: #2c2b29;
 }
 
-body {
+.pp-body {
     overflow-y: scroll;
+    background-image: url(/images/tarroja+rekvisiittaaISO_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 pp-main {
@@ -39,12 +43,15 @@ img {
 .product-page-container {
     max-width: 1000px;
     margin: 0 auto;
+    background-color: #f8f7f5;
 }
 
 .product-page-head-container,
 .product-page-bottom-container {
     background-color: #FDD0B1;
     border-radius: .5rem;
+    border: .5px solid  #6e6c68;
+    margin: 1rem;
 }
 
 .pp-col-1-2 {
@@ -54,7 +61,7 @@ img {
 }
 
 .pp-col-1-3 {
-    box-shadow: 0 0 15px #FDD0B1;
+    box-shadow: 0 0 .5rem #6e6c68;
     border-radius: .5rem;
     text-align: center;
     margin: 1rem;
@@ -64,22 +71,18 @@ img {
     padding: 1rem;;
 }
 
-.pp-img1 {
-    background-color: #FDD0B1;
-}
-
+.pp-img1,
+.pp-img2,
 .pp-img3 {
     background-color: #FDD0B1;
-}
-
-.pp-img2 {
-    background-color: #FDD0B1;
+    border-radius: .5rem .5rem 0 0;
 }
 
 .pp-note {
+    background-color: #f8f7f5;
     box-sizing: border-box;
     max-width: 100%;
-    box-shadow: 0 0 15px #FDD0B1;
+    box-shadow: 0 0 .5rem #6e6c68;
     border-radius: .5rem;
     text-align: center;
 }
@@ -88,7 +91,7 @@ img {
     box-sizing: border-box;
     margin: 1rem;
     padding: 1rem;
-    text-align: center;
+    text-align: cente;
 }
 .product-page-flex-container.info .pp-note {
     padding: .5rem;
@@ -104,6 +107,7 @@ img {
 
 .product-page-head-container,
 .product-page-bottom-container {
+    background-color: #f8f7f5;
     display: inline-flex;
     position: relative;
 }
@@ -127,6 +131,7 @@ img {
 }
 
 .pp-col-1-3 {
+    background-color: #f8f7f5;
     display: flex;
     flex-direction: column;
     width: 32%;
