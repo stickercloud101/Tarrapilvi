@@ -1,13 +1,16 @@
+/* customer page */
+
+/* 
 * {
     box-sizing: border-box;
-}
+} */
 
 body {
     background-image: url(../images/tarrojaharmaatausta2_.jpg);
     margin: 0;
 }
 
-main {
+cc-main {
     background-color: #f8f7f5;
     padding: 1rem;
 }
@@ -30,7 +33,7 @@ h4 {
  }
 
  h5 {
-     margin-top: 20px;
+    margin-top: 20px;
     padding-top: 15px;
     padding-bottom: 30px;
     padding-right: 20px;
@@ -190,3 +193,5 @@ img {
         margin-top: 40px;
     }
 }
+
+/* customer page */
