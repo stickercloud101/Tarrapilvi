@@ -72,6 +72,18 @@ img {
     height: auto;
 }
 
+footer {
+    max-width: 1000px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    background-color: #fdd0b1;
+    justify-content: space-between;
+    border-top: 1px solid #444;
+}
+
+footer div ul li {
+    padding: .5rem;
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -107,6 +119,41 @@ img {
 
 .bar {
     margin-top: px;
+}
+    
+.contact {
+    padding: .5rem;
+}
+    
+.footLinks {
+    padding: 1rem;
+    
+}
+
+.footLinks ul {
+    list-style-type: none;
+}
+
+.footLinks ul a{
+    color: #000;
+    font-size: 1.25rem;
+}
+
+.footerNav {
+    padding-top: 15%;
+}
+
+.footerNav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 1rem;
+    padding-right: 4.1rem;
+}
+
+.footerNav ul li a {
+    padding: .5rem .5rem;
+    color: #000;
+    display: block;
 }
 
 @media (min-width: 375px) {
@@ -195,3 +242,5 @@ img {
 }
 
 /* customer page */
+
+/* index page */
