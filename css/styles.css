@@ -1,11 +1,14 @@
 * {
     box-sizing: border-box;
     color: #2c2b29;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
+    font-family: 'Share', cursive;
     text-align: center;
     text-transform: uppercase;
     margin-top: 2rem;
@@ -23,7 +26,8 @@ img {
     background-size: cover;
 }
 
-.pp-body h3{
+.pp-body h3,
+.index-body h3 {
     margin: 0;
     padding: .5rem;
 }
@@ -42,7 +46,8 @@ img {
     padding: 0;
 }
 
-.product-page-container {
+.product-page-container,
+.index-main-container {
     max-width: 1000px;
     margin: 0 auto;
     background-color: #f8f7f5;
@@ -51,9 +56,7 @@ img {
 .product-page-head-container,
 .product-page-bottom-container {
     background-color: #FDD0B1;
-    border-radius: .5rem;
-    border: .5px solid  #6e6c68;
-    margin: 1rem;
+    border: .25px solid  #6e6c68;
 }
 
 .pp-col-1-2 {
@@ -63,8 +66,6 @@ img {
 }
 
 .pp-col-1-3 {
-    box-shadow: 0 0 .5rem #6e6c68;
-    border-radius: .5rem;
     text-align: center;
     margin: 1rem;
 }
@@ -77,7 +78,6 @@ img {
 .pp-img2,
 .pp-img3 {
     background-color: #FDD0B1;
-    border-radius: .5rem .5rem 0 0;
     margin-bottom: .5rem;
 }
 
@@ -85,8 +85,6 @@ img {
     background-color: #f8f7f5;
     box-sizing: border-box;
     max-width: 100%;
-    box-shadow: 0 0 .5rem #6e6c68;
-    border-radius: .5rem;
     text-align: center;
 }
 
@@ -155,11 +153,11 @@ a {
 address {
     text-align: left;
     text-decoration: underline;
+    margin-top: 1rem;
 }
 
 .logo {
     max-width: 400px;
-
 }
 
 .img-main {
@@ -242,16 +240,12 @@ main {
 
 
 h3 {
-    color: #2c2b29;
-    font-family: 'Share', cursive;
     font-size: 1.2rem;
     margin-left: 80px;
     margin-top: 30px;
 }
 
 h4 {
-    color: #2c2b29;
-    font-family: 'Share', cursive;
     font-size: 1.2rem;
     margin-top: 8px;
     margin-bottom: 8px;
@@ -262,16 +256,12 @@ h4 {
     padding-top: 15px;
     padding-bottom: 30px;
     padding-right: 20px;
-    color: #2d2d30;
     font-size: .8rem;
-    font-family: 'Montserrat', sans-serif;
     margin-left: 80px;
  }
 
  h6 {
-    font-family: 'Montserrat', sans-serif;
     margin-left: 0px;
-    color: #2d2d30;
     font-size: 0.8rem;
     margin-bottom: -23px;
     margin-top: 3px;
@@ -283,13 +273,10 @@ figcaption {
     padding-right: 20px;
     color: #2d2d30;
     font-size: .8rem;
-    font-family: 'Montserrat', sans-serif;
 }
 
 caption {
-    font-family: 'Montserrat', sans-serif;
     font-size: 0.5rem;
-
 }
 
 .container {
@@ -305,8 +292,6 @@ caption {
 .button {
     margin-top: 80px;
     background-color: #fcbd96;
-    color: #2c2b29;
-    font-family: 'Montserrat', sans-serif;
     padding: 15px 32px;
     cursor: pointer; 
     border: none;
@@ -423,20 +408,26 @@ footer {
     margin: 0 auto;
     background-color: #fdd0b1;
     justify-content: space-between;
-    border-top: 1px solid #444;
 }
 
 footer div ul li {
-    padding: .5rem;
+    padding: .5rem 0 .5rem .5rem;
 }
 
 .contact {
-    padding: .5rem;
+    padding: 1rem;
+    width: 32%;
+}
+
+.contact h3{
+    padding: .5rem .5rem .5rem 0;
+    text-align: left;
 }
     
 .footLinks {
     padding: 1rem;
-    
+    text-align: right;
+    width: 32%;
 }
 
 .footLinks ul {
@@ -444,23 +435,25 @@ footer div ul li {
 }
 
 .footLinks ul a{
-    color: #000;
     font-size: 1.25rem;
+    color: #2c2b29;
 }
 
 .footerNav {
-    padding-top: 15%;
+    align-self: flex-end;
+    width: 32%;
 }
 
 .footerNav ul {
     display: flex;
     list-style-type: none;
-    margin: 0 1rem;
-    padding-right: 4.1rem;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
 }
 
 .footerNav ul li a {
     padding: .5rem .5rem;
-    color: #000;
     display: block;
+    color: #2c2b29;
 }
