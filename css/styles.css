@@ -339,6 +339,55 @@ address {
     text-shadow: 0 0 .5rem #000;
 }
 
+
+address {
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
+.logo {
+    max-width: 400px;
+}
+
+.img-main {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #333;
+    background-image: url(../images/tarroja+nappisHEROKOKO@3x.png);
+    background-size: cover;
+    background-position: center;
+    height: 0;
+    padding-top: 46.5%;
+    border-bottom: 1px solid #444;
+}
+
+.img-main::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00d0;
+}
+
+.img-main h1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0 2rem;
+    margin: 0;
+    transform: translateY(-50%);
+    text-shadow: 0 0 .5rem #000;
+}
+
 .contact {
     padding: .5rem;
 }
