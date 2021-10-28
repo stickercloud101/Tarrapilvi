@@ -23,6 +23,126 @@ img {
     height: auto !important;
 }
 
+footer {
+    max-width: 1000px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    background-color: #fdd0b1;
+    justify-content: space-between;
+    border-top: 1px solid #444;
+}
+
+footer div ul li {
+    padding: .5rem;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    background: url(../img/background/tarrojaharmaatausta3ISO@3x_.jpg) center no-repeat;
+}
+
+._container {
+    max-width: 1000px;
+    margin: 0 auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
+	color: #fff;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	z-index: 50;
+}
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	min-height: 104px;
+	align-items: flex-end;
+	line-height: 52px;
+	background: #e0cbb7;
+}
+
+@media (max-width: 479px) {
+	.header__container {
+		min-height: 85px;
+	}
+}
+
+.header__logo {
+	margin: 10px;
+}
+
+.header__logo img {
+	max-width: 210px;
+}
+.header__menu {
+	margin: 0px 0px 0px 123px;
+}
+
+@media (max-width: 992px) {
+	.header__menu {
+		margin: 0px 0px 0px 80px;
+	}
+}
+
+@media (max-width: 767px) {
+	.header__menu {
+		margin: 0px 0px 0px 40px;
+	}
+}
+
+@media (max-width: 479px) {
+	.header__menu {
+		margin: 0px 0px 0px 20px;
+	}
+}
+
+.menu {
+	padding: 5px 0;
+}
+
+.menu__list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+.menu__item {
+	margin: 0px 21px 0px 0px;
+}
+
+.menu__link {
+	color: #000;
+	font-weight: 500;
+	font-size: 20px;
+	font-family: Share;
+	line-height: 171%;
+
+	position: relative;
+	text-decoration: none;
+}
+
+.menu__link:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	visibility: hidden;
+	transform: scaleX(0);
+	transition: all .2s ease-in-out 0s;
+}
+
+.menu__link:hover::before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+
 .product-page-head-container p {
     text-align: center;
 }
@@ -99,6 +219,36 @@ img {
     padding: 2rem;
 }
 
+.footLinks {
+    padding: 1rem;
+    
+}
+
+.footLinks ul {
+    list-style-type: none;
+}
+
+.footLinks ul a{
+    color: #000;
+    font-size: 1.25rem;
+}
+
+.footerNav {
+    padding-top: 15%;
+}
+
+.footerNav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 1rem;
+    padding-right: 4.1rem;
+}
+
+.footerNav ul li a {
+    padding: .5rem .5rem;
+    color: #000;
+    display: block;
+}
 
 @media (min-width: 768px) {
 
@@ -130,6 +280,13 @@ img {
     display: flex;
     flex-direction: column;
     width: 32%;
+}
+
+.i-col-1-2 {
+    width: 50%;
+}
+.i-col-3-4 {
+    width: 50%;
 }
 
 };
@@ -209,20 +366,6 @@ img {
     height: auto;
 }
 
-footer {
-    max-width: 1000px;
-    height: auto;
-    display: flex;
-    margin: 0 auto;
-    background-color: #fdd0b1;
-    justify-content: space-between;
-    border-top: 1px solid #444;
-}
-
-footer div ul li {
-    padding: .5rem;
-}
-
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -262,37 +405,6 @@ footer div ul li {
 
 .contact {
     padding: .5rem;
-}
-    
-.footLinks {
-    padding: 1rem;
-    
-}
-
-.footLinks ul {
-    list-style-type: none;
-}
-
-.footLinks ul a{
-    color: #000;
-    font-size: 1.25rem;
-}
-
-.footerNav {
-    padding-top: 15%;
-}
-
-.footerNav ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0 1rem;
-    padding-right: 4.1rem;
-}
-
-.footerNav ul li a {
-    padding: .5rem .5rem;
-    color: #000;
-    display: block;
 }
 
 @media (min-width: 375px) {
@@ -467,5 +579,3 @@ address {
     margin-left: 3rem;
     font-size: 18px;
 }
-
-/* customer page */
