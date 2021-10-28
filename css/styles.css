@@ -2,7 +2,151 @@
     box-sizing: border-box;
     color: #2c2b29;
     font-family: 'Montserrat', sans-serif;
+<<<<<<< Updated upstream
+=======
 }
+
+/* HEADER */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    background: url(../img/background/tarrojaharmaatausta3ISO@3x_.jpg) center no-repeat;
+}
+
+._container {
+    max-width: 1000px;
+    margin: 0 auto;
+	box-sizing: content-box;
+	color: #fff;
+}
+
+.header {
+	width: 100%;
+	z-index: 50;
+}
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	min-height: 104px;
+	align-items: flex-end;
+	line-height: 52px;
+	background: #fdd0b1;
+}
+
+@media (max-width: 479px) {
+	.header__container {
+		min-height: 85px;
+	}
+}
+
+.header__logo {
+	margin: 10px;
+}
+
+.header__logo img {
+	max-width: 210px;
+}
+.header__menu {
+	margin: 0px 0px 0px 123px;
+}
+
+@media (max-width: 992px) {
+	.header__menu {
+		margin: 0px 0px 0px 80px;
+	}
+}
+
+@media (max-width: 767px) {
+	.header__menu {
+		margin: 0px 0px 0px 40px;
+	}
+}
+
+@media (max-width: 479px) {
+.header__menu {
+		margin: 0px 0px 0px 20px;
+    }
+}
+
+.menu {
+	padding: 5px 0;
+}
+
+.menu__list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+}
+.menu__item {
+	margin: 0px 21px 0px 0px;
+}
+
+.menu__link {
+	color: #000;
+	font-weight: 500;
+	font-size: 20px;
+	font-family: Share;
+	line-height: 171%;
+
+	position: relative;
+	text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #000;
+}
+
+.menu__link:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	visibility: hidden;
+	transform: scaleX(0);
+	transition: all .2s ease-in-out 0s;
+}
+
+.menu__link:hover::before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+
+/* /.HEADER-------------------------------- */
+/* Burger-Menu */
+.menu-btn {
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.menu-btn span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #000;
+>>>>>>> Stashed changes
+}
+
+.menu-btn span:nth-child(2) {
+    top: calc(50% - 4px);
+}
+
+.menu-btn span:nth-child(3) {
+    top: calc(50% + 5px);
+}
+
+
+
+
+/* ------------------------------------------ */
 
 h1,
 h2,
@@ -149,6 +293,7 @@ figure {
 a {
     text-decoration: none;
 }
+<<<<<<< Updated upstream
 
 address {
     text-align: left;
@@ -198,6 +343,57 @@ address {
     text-shadow: 0 0 .5rem #000;
 }
 
+=======
+
+address {
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
+.logo {
+    max-width: 400px;
+}
+
+.img-main {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #333;
+    background-image: url(../images/tarroja+nappisHEROKOKO@3x.png);
+    background-size: cover;
+    background-position: center;
+    height: 0;
+    padding-top: 46.5%;
+    border-bottom: 1px solid #444;
+}
+
+.img-main::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00d0;
+}
+
+.img-main h1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0 2rem;
+    margin: 0;
+    transform: translateY(-50%);
+    text-shadow: 0 0 .5rem #000;
+}
+
+>>>>>>> Stashed changes
 .contact {
     padding: .5rem;
 }
@@ -280,7 +476,7 @@ caption {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1023px;
     margin: 0 auto;
 }
 
@@ -345,7 +541,7 @@ caption {
 
 @media (min-width: 768px) {
     body {
-        padding-top: 146px;
+        padding-top: 10px;
     }
     .flex-container {
         display: flex;
