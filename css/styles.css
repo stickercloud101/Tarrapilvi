@@ -2,8 +2,6 @@
     box-sizing: border-box;
     color: #2c2b29;
     font-family: 'Montserrat', sans-serif;
-<<<<<<< Updated upstream
-=======
 }
 
 /* HEADER */
@@ -132,7 +130,6 @@
     top: 50%;
     left: 50%;
     background-color: #000;
->>>>>>> Stashed changes
 }
 
 .menu-btn span:nth-child(2) {
@@ -293,7 +290,6 @@ figure {
 a {
     text-decoration: none;
 }
-<<<<<<< Updated upstream
 
 address {
     text-align: left;
@@ -343,7 +339,6 @@ address {
     text-shadow: 0 0 .5rem #000;
 }
 
-=======
 
 address {
     text-align: left;
@@ -393,7 +388,6 @@ address {
     text-shadow: 0 0 .5rem #000;
 }
 
->>>>>>> Stashed changes
 .contact {
     padding: .5rem;
 }
