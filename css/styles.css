@@ -344,6 +344,7 @@ address {
 
 .i-flex-container {
     justify-content: space-between;
+    display: flex;
 }
 
 .i-col-1-2 {
