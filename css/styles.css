@@ -342,7 +342,7 @@ address {
     padding: .5rem;
 }
 
-.flex-container {
+.i-flex-container {
     justify-content: space-between;
 }
 
