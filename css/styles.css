@@ -350,18 +350,47 @@ address {
     margin: 2.5rem 2.5rem;
     padding: .5rem .5rem;
     border: 1px solid #eee;
-    
 }
 
 .i-col-3-4 {
     margin: 2.5rem 2.5rem;
     padding: .5rem .5rem;
-    border: 1px solid #eee;
+    border: 1px solid #eee;  
+}
+
+.i-button {
+    margin-top: 40px;
+    background-color: #fcbd96;
+    padding: 15px 32px;
+    cursor: pointer; 
+    border: none;
+    justify-content: center;
+}
+
+.i-button:hover {
+    background-color: #fdd0b1;
+    color: #2c2b29 !important;
 }
 
 #mainParagraf {
     margin-left: 3rem;
     font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .i-col-1-2 {
+        margin: 2.5rem 2.5rem;
+        padding: .5rem .5rem;
+        border: 1px solid #eee;
+        width: 45%;
+    }
+    
+    .i-col-3-4 {
+        margin: 2.5rem 2.5rem;
+        padding: .5rem .5rem;
+        border: 1px solid #eee;
+        width: 45%;
+    } 
 }
 
 /* customer page */
