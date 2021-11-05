@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     color: #2c2b29;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
@@ -278,8 +278,54 @@ img {
     width: 32%;
 }
 
-};
+}
+/* productization */
+.DH-page {
+    background-image: url(../images/varikkaitaISO_.jpeg);
+    overflow-y: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.yksi {
+    background-image: url(../images/stickerCloudLOGO180.png);
+    height: 180px;
+    width: 180px;
+    position: relative;
+    left: -180px;
+    background-repeat: no-repeat;
+    animation: rotate 40s ease forwards,
+        drop 30s ease;   
+    animation-direction: reverse 5s;
+}
+
+.teksti {
+    padding: 30px;
+    content: 50px;
+    text-align: justify;
+    background-color: #f8f7f5;
+}
+
+.teksti h1 {
+    padding: 1em;
+}
+
+.teksti h3 {
+    padding: 1.5em;
+}
+
+@keyframes rotate{
+    25%{
+        transform: rotate(10deg); 
+    }
+    25%{
+        transform: rotate(-80deg);
+    }
+    from{transform: translateY(-1300px);}
+    to{transform: translateY(-1000px);}   
+} 
+
+/* produtization loppuu*/
 
 /*index*/
 figure {
@@ -414,19 +460,19 @@ main {
 }
 
 
-h3 {
+ h3 {
     font-size: 1.2rem;
     margin-left: 80px;
     margin-top: 30px;
 }
 
-h4 {
+.cp-body h4 {
     font-size: 1.2rem;
     margin-top: 8px;
     margin-bottom: 8px;
  }
 
- h5 {
+ .cp-body h5 {
     margin-top: 20px;
     padding-top: 15px;
     padding-bottom: 30px;
@@ -435,7 +481,7 @@ h4 {
     margin-left: 80px;
  }
 
- h6 {
+ .cp-body h6 {
     margin-left: 0px;
     font-size: 0.8rem;
     margin-bottom: -23px;
@@ -505,11 +551,11 @@ caption {
     h3 {
         font-size: 2rem;
     }
-    h6 {
+    .cp-body h6 {
         text-align: center;
         margin-left: -80px;
     }
-    h5 {
+    .cp-body h5 {
         display: block;
         margin-right: 50px;
     }
@@ -547,13 +593,13 @@ caption {
         border: solid .1rem #b8b4b0;
         margin-bottom: 50px;
     }
-    h5{
+    .cp-body h5{
        margin-right: 5px; 
        margin-top: 1px;
        margin-left: 53px;
 
     }
-    h6 {
+    .cp-body h6 {
         margin-left: 2px;
         text-align: left;
     }
