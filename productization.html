@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +15,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Share&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body class="DH-page">
-    
+
     <div class="wrapper">
         <header class="header">
+            <div class="menu-burger">
+                <button class="burger burger-line">
+                    <span></span>
+                </button>
+                <ul class="burger-list">
+                    <li class="burger-item">
+                        <a href="index.html" class="menu__link">Etusivu</a>
+                    </li>
+                    <li class="burger-item">
+                        <a href="productpage.html" class="menu__link">Tuotesivu</a>
+                    </li>
+                    <li class="burger-item">
+                        <a href="customer.html" class="menu__link">Asiakaskokemukset</a>
+                    </li>
+                    <li class="burger-item">
+                        <a href="productization.html" class="menu__link">Brändäys</a>
+                    </li>
+                    <li class="burger-item">
+                        <a href="about.html" class="menu__link">About</a>
+                    </li>
+                </ul>
+            </div>
             <div class="header__container _container">
                 <a href="#" class="header__logo">
                     <img src="./images/Logo/Logo.svg" alt="">
@@ -35,7 +59,7 @@
                         </li>
                         <li class="menu__item">
                             <a href="productization.html" class="menu__link">Brändäys</a>
-                         </li>
+                        </li>
                         <li class="menu__item">
                             <a href="about.html" class="menu__link">About</a>
                         </li>
@@ -48,35 +72,43 @@
     <div class="product-page-container">
         <div class="teksti">
             <h1>Kuin putoava lehti!</h1>
-        
-        
-        <h2>Maailma on täynnä tietoa, johon helppo hukkua.</h2>
 
-        <h3>Miten löydät haluamasi ja miten sinut huomataan?</h3>
 
-        <p>Tarjoamme täyden palvelupaketin, jossa sinut, yrityksesi tai tuotteesi huomataan.
+            <h2>Maailma on täynnä tietoa, johon helppo hukkua.</h2>
+
+            <h3>Miten löydät haluamasi ja miten sinut huomataan?</h3>
+
+            <p>Tarjoamme täyden palvelupaketin, jossa sinut, yrityksesi tai tuotteesi huomataan.
                 Kauttamme voit luoda ainutlaatuisen tarran tai kokoelman tarroja
-                Jossa sinut tai tuotteesi tulee brändätyksi. Integroit itsesi suunnitteluvaiheesta valmiiseen tuotteeseen.           
+                Jossa sinut tai tuotteesi tulee brändätyksi. Integroit itsesi suunnitteluvaiheesta valmiiseen
+                tuotteeseen.
             </p>
-            
 
-        <h3>Luomamme tuote voidaan laajentaa edelleen digitaaliseen muotoon tai myöhemmin päivittää käyttötarkoituksesi mukaan.
-        </h3>
 
-        <p>Päivitämme tuotteesi  myös digitaaliseksi tai teemme siitä NFT -version, jonka voit jakaa käytettäväksi käyntikorttina. Luomasi tarran pohjalta voimme luoda avatar -tyyppisen ratkaisun sinulle ja voit tuoda avatarin käyttämällä sitä NFT:nä kaikkien saatavilla olevien sosiaalisten medioiden kautta, esimerkiksi LinkedIn jne. 
+            <h3>Luomamme tuote voidaan laajentaa edelleen digitaaliseen muotoon tai myöhemmin päivittää
+                käyttötarkoituksesi mukaan.
+            </h3>
+
+            <p>Päivitämme tuotteesi myös digitaaliseksi tai teemme siitä NFT -version, jonka voit jakaa käytettäväksi
+                käyntikorttina. Luomasi tarran pohjalta voimme luoda avatar -tyyppisen ratkaisun sinulle ja voit tuoda
+                avatarin käyttämällä sitä NFT:nä kaikkien saatavilla olevien sosiaalisten medioiden kautta, esimerkiksi
+                LinkedIn jne.
                 Fyysinen avatar on liimattavassa muodossa ja digitaalinen siirtää eteenpäin.
-                Sanomasi ja sinut huomataan varmasti ja kopio sinusta jää ihmisten mieleen.            
+                Sanomasi ja sinut huomataan varmasti ja kopio sinusta jää ihmisten mieleen.
             </p>
 
-            <p>Meiltä saat myös älysopimus (smartcontract) -pohjan NFT:tä varten. Tästä eteenpäin voit myydä NFT:si sarjana haluamallasi tavalla. Jo käytettä fyysinen tarra voidaan palauttaa alkuperäiseen muotoonsa ja myydä se NFT:n ohella keräilyharvinaisuutena. Täten tuotteestamme ei synny ongelmajätettä ja kierrätystä ei tarvita.
+            <p>Meiltä saat myös älysopimus (smartcontract) -pohjan NFT:tä varten. Tästä eteenpäin voit myydä NFT:si
+                sarjana haluamallasi tavalla. Jo käytettä fyysinen tarra voidaan palauttaa alkuperäiseen muotoonsa ja
+                myydä se NFT:n ohella keräilyharvinaisuutena. Täten tuotteestamme ei synny ongelmajätettä ja kierrätystä
+                ei tarvita.
             </p>
-            
 
-        <h3>Miksi et siis brändäisi itseäsi meillä?</h3>
-        </div> 
-        
+
+            <h3>Miksi et siis brändäisi itseäsi meillä?</h3>
+        </div>
+
         <div class="yksi">
-        
+
         </div>
     </div>
 
@@ -116,5 +148,9 @@
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
