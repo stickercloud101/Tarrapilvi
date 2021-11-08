@@ -4,6 +4,21 @@
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Share', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto !important;
+}
+
 /* HEADER */
 .wrapper {
     min-height: 100%;
@@ -144,21 +159,6 @@
 
 /* ------------------------------------------ */
 
-h1,
-h2,
-h3,
-h4 {
-    font-family: 'Share', cursive;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 2rem;
-}
-
-img {
-    max-width: 100%;
-    height: auto !important;
-}
-
 .pp-body {
     overflow-y: scroll;
     background-image: url(../images/tarroja+rekvisiittaaISO_.jpg);
@@ -232,7 +232,6 @@ img {
     box-sizing: border-box;
     margin: 1rem;
     padding: 1rem;
-    text-align: cente;
 }
 .product-page-flex-container.info .pp-note {
     padding: .5rem;
@@ -312,6 +311,7 @@ img {
 
 .teksti h3 {
     padding: 1.5em;
+    margin: 0;
 }
 
 @keyframes rotate{
@@ -334,12 +334,6 @@ figure {
 
 a {
     text-decoration: none;
-}
-
-address {
-    text-align: left;
-    text-decoration: underline;
-    margin-top: 1rem;
 }
 
 .logo {
@@ -376,7 +370,7 @@ address {
     left: 0;
     right: 0;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 9.5vw;
     text-align: center;
     padding: 0 2rem;
     margin: 0;
@@ -390,19 +384,20 @@ address {
 
 .i-flex-container {
     justify-content: space-between;
-    display: flex;
 }
 
 .i-col-1-2 {
     margin: 2.5rem 2.5rem;
     padding: .5rem .5rem;
     border: 1px solid #eee;
+    text-align: center;
 }
 
 .i-col-3-4 {
     margin: 2.5rem 2.5rem;
     padding: .5rem .5rem;
-    border: 1px solid #eee;  
+    border: 1px solid #eee;
+    text-align: center;  
 }
 
 .i-button {
@@ -420,11 +415,23 @@ address {
 }
 
 #mainParagraf {
-    margin-left: 3rem;
+    margin: 0;
+    margin-top: 1rem;
     font-size: 18px;
+    text-align: center;
+}
+
+@media (min-width: 480px) {
+    .img-main h1 {
+        font-size: 8vw;
+    }
 }
 
 @media (min-width: 768px) {
+    .img-main h1 {
+        font-size: 6vw;
+    }
+
     .i-flex-container {
         justify-content: space-between;
         display: flex;
@@ -442,7 +449,13 @@ address {
         padding: .5rem .5rem;
         border: 1px solid #eee;
         width: 45%;
-    } 
+    }
+}
+
+@media (min-width: 1400px) {
+    .img-main h1 {
+        font-size: 4vw;
+    }
 }
 
 /* customer page */
@@ -625,7 +638,6 @@ caption {
 footer {
     max-width: 1000px;
     height: auto;
-    display: flex;
     margin: 0 auto;
     background-color: #fdd0b1;
     justify-content: space-between;
@@ -635,28 +647,33 @@ footer div ul li {
     padding: .5rem 0 .5rem .5rem;
 }
 
+address {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
 .contact {
     padding: 1rem;
-    width: 32%;
 }
 
 .contact h3{
     padding: .5rem .5rem .5rem 0;
-    text-align: left;
+    text-align: center;
 }
 
 .contact__header {
     margin: 0;
 }
-    
+
 .footLinks {
-    padding: 1rem;
-    text-align: right;
-    width: 32%;
+    text-align: center;
 }
 
 .footLinks ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .footLinks ul a{
@@ -666,7 +683,7 @@ footer div ul li {
 
 .footerNav {
     align-self: flex-end;
-    width: 32%;
+   
 }
 
 .footerNav ul {
@@ -683,6 +700,30 @@ footer div ul li {
     color: #2c2b29;
 }
 
+@media (min-width: 768px) {
+    address {
+        text-align: left;
+    }
+    .contact h3{
+        text-align: left;
+    }
+    .contact {
+        padding: 1rem;
+        width: 32%;
+    }
+    .footLinks {
+        padding: 1rem;
+        text-align: right;
+        width: 32%;
+    }
+    .footerNav {
+        align-self: flex-end;
+        width: 32%;
+    }
+    .footer-flex-container {
+        display: flex;
+    }
+}
 
 /* ABOUT--------------------------- */
 ._page  {
