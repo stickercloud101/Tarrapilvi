@@ -828,18 +828,19 @@ address {
 .main-block {
     position: relative;
     background-image: url(../images/plug_sticker.jpg);
-    background-position: 130px 30px;
+    background-position: 180px -50px;
     background-size: cover;
 
 }
 
 .main-block__body {
-    padding: 10px 0px 90px 0px;
+    padding: 10px 0px 50px 0px;
     z-index: 99;
     max-width: 400px;
 }
 
 .main-block__title {
+    margin: 0 5px;
     font-size: 58px;
     line-height: 137%;
     letter-spacing: 0.2px;
@@ -974,7 +975,7 @@ address {
 /* ABOUT(WHO WE ARE) */
 .whoweare {
     background-color: #f9be97;
-    padding: 30px 0px 60px 0px;
+    padding: 30px 0px 20px 0px;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -984,10 +985,11 @@ address {
 .whoweare__subtitle {
     text-align: center;
     font-size: 24px;
+    margin: 20px 10px 0;
 }
 
 .whoweare__header {
-    margin: 0px 0px 100px 0px;
+    margin: 0px 0px 40px 0px;
 }
 
 .whoweare__body {
@@ -996,14 +998,21 @@ address {
 }
 
 .whoweare__video {
-    flex: 0 0 57%;
+    flex: 0 0 50%;
     position: relative;
-    padding: 0px 0px 42.25% 0px;
+    padding: 0;
     margin: 0px 0px 0px 5px;
 }
 
-.whoweare__video iframe {
-    position: absolute;
+.whoweare__video {
+    flex: 0 0 57%;
+    position: relative;
+    padding: 0px 0px 40px 0px;
+    margin: 0px 0px 0px 5px;
+}
+
+.whoweare__video video {
+    position: static    ;
     width: 100%;
     height: 100%;
     top: 0;
@@ -1021,6 +1030,7 @@ address {
     font-size: 40px;
     line-height: 142%;
     letter-spacing: 0.2px;
+    text-align: center;
 }
 
 .whoweare__title:not(:last-child) {
@@ -1030,6 +1040,9 @@ address {
 .whoweare__text {
     color: #000;
     line-height: 142%;
+    margin-right: .5rem;
+    font-size: 20px;
+    text-align: center;
 }
 
 .whoweare__top:not(:last-child) {
@@ -1080,7 +1093,7 @@ address {
 
 @media(max-width:950px) {
     .whoweare {
-        padding: 50px 0px 50px 0px;
+        padding: 40px 0px 40px 0px;
     }
 
     .whoweare__body {
@@ -1096,8 +1109,10 @@ address {
         padding: 0px 0px 0px 0px;
     }
 
-    .whoweare__video {
-        padding: 0px 0px 56.25% 0px;
+    .whoweare__video video {
+        position: static;
+        padding: 0px 5px 15px 5px;
+
     }
 
     .whoweare__video:not(:last-child) {
@@ -1111,7 +1126,7 @@ address {
 
 @media(max-width:767px) {
     .whoweare {
-        padding: 20px 0px 50px 0px;
+        padding: 20px 0px 20px 0px;
     }
 
     .whoweare__text {
