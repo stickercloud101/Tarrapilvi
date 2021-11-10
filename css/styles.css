@@ -237,7 +237,7 @@ img {
 }
 
 @media (min-width: 853px) {
-    .burger {
+    .menu-burger {
         display: none;
     }
 }
