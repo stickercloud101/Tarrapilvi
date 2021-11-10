@@ -534,14 +534,12 @@ a {
     .i-col-1-2 {
         margin: 2.5rem 2.5rem;
         padding: .5rem .5rem;
-        border: 1px solid #eee;
         width: 45%;
     }
     
     .i-col-3-4 {
         margin: 2.5rem 2.5rem;
         padding: .5rem .5rem;
-        border: 1px solid #eee;
         width: 45%;
     }
 }
