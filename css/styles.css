@@ -234,7 +234,6 @@ img {
         margin: 0;
         background-color: #FFE6CD;
     }
-
 }
 
 @media (min-width: 853px) {
@@ -242,14 +241,6 @@ img {
         display: none;
     }
 }
-
-
-
-
-
-
-
-
 
 /* ------------------------------------------ */
 
@@ -621,7 +612,6 @@ caption {
     padding: 15px 32px;
     cursor: pointer; 
     border: none;
-
 }
 
 .button:hover {
@@ -775,7 +765,6 @@ address {
 
 .footerNav {
     align-self: flex-end;
-   
 }
 
 .footerNav ul {
@@ -881,10 +870,6 @@ address {
 }
 
 /* ABOUT(SERVICES) */
-.services {}
-
-.services__container {}
-
 
 .services__body {
     background-color: #fff;
@@ -937,9 +922,6 @@ address {
     }
 }
 
-.item-service {}
-
-
 .item-service__green .item-service__title {
     color: #000;
 }
@@ -971,14 +953,13 @@ address {
 }
 
 /* ABOUT(WHO WE ARE) */
+
 .whoweare {
     background-color: #f9be97;
     padding: 30px 0px 20px 0px;
     max-width: 1000px;
     margin: 0 auto;
 }
-
-.whoweare__container {}
 
 .whoweare__subtitle {
     text-align: center;
@@ -992,7 +973,6 @@ address {
 
 .whoweare__body {
     display: flex;
-
 }
 
 .whoweare__video {
@@ -1137,8 +1117,3 @@ address {
         margin: 30px 0px 0px 0px;
     }
 }
-
-/* ABOUT(WATCH */
-
-
-
