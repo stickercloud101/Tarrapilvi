@@ -994,7 +994,7 @@ address {
 
 .whoweare__body {
     display: flex;
-    align-items: flex-start;
+
 }
 
 .whoweare__video {
@@ -1005,16 +1005,16 @@ address {
 }
 
 .whoweare__video {
-    flex: 0 0 57%;
+    flex: 0 0 56%;
     position: relative;
-    padding: 0px 0px 40px 0px;
-    margin: 0px 0px 0px 5px;
+    padding: 0px 0px 40% 0px;
+    margin: 0px 5px 0px 5px;
 }
 
-.whoweare__video video {
-    position: static    ;
+.whoweare__video iframe {
+    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 90%;
     top: 0;
     left: 0;
     object-fit: cover;
@@ -1040,7 +1040,7 @@ address {
 .whoweare__text {
     color: #000;
     line-height: 142%;
-    margin-right: .5rem;
+    margin-right: 1rem;
     font-size: 20px;
     text-align: center;
 }
@@ -1093,7 +1093,7 @@ address {
 
 @media(max-width:950px) {
     .whoweare {
-        padding: 40px 0px 40px 0px;
+        padding: 40px 10px 40px 10px;
     }
 
     .whoweare__body {
@@ -1109,10 +1109,8 @@ address {
         padding: 0px 0px 0px 0px;
     }
 
-    .whoweare__video video {
-        position: static;
-        padding: 0px 5px 15px 5px;
-
+    .whoweare__video {
+        padding: 0px 0px 56.25% 0px;
     }
 
     .whoweare__video:not(:last-child) {
